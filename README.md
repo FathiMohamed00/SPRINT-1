@@ -8,4 +8,4 @@ Creer un environnement virtuel sur Windows:
 5. Mettre la commande "python -m venv venv" pour que les dépendences soit unique à l'environnement
 6. Mettre la commande "venv\Scripts\activate" et utiliser "pip install -r requirements.txt"
 7. Lancer "python app.py" ou "flask run"
-8. Quitter l'environnement "deactivate"
+8. Quitter l'environnement, utiliser "deactivate"
