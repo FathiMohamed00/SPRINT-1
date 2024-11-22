@@ -146,7 +146,7 @@ def deconnexion():
     if request.method == "POST":
         session.clear()
         flash("Déconnexion réussie.", "success")
-        return redirect(url_for("connexion"))
+        return redirect(url_for("deconnexion"))
     return render_template("deconnexion.html")
 
 if __name__ == "__main__":
