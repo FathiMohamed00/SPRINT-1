@@ -7,9 +7,9 @@ Flask avec Docker :
 4. docker pull mysql:8.0
 5. docker pull phpmyadmin/phpmyadmin
 6. docker pull python:3.9-slim
-7. SI BESOIN ALLER DANS "Sprint1" et: python3 -m venv venv
-                                      source venv/bin/activate
-                                      pip install -r requirements.txt
+7. SI BESOIN ALLER DANS "Sprint1" et: "python3 -m venv venv"
+                                      "source venv/bin/activate"
+                                      "pip install -r requirements.txt"
   Sinon directement mettre "pip install -r requirements.txt"
 8. Aller dans le dossier "SPRINT-1" et mettre "docker-compose up -d"
    On pourra vérifier l'état des dockers avec "docker ps"
