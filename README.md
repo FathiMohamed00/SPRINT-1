@@ -1,14 +1,14 @@
 Sprint1 -------- avec framework Flask
 
-sudo apt update
-sudo apt install apt-transport-https ca-certificates curl software-properties-common -y
-curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
-echo "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/debian $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-sudo apt update
-sudo apt install docker-ce docker-ce-cli containerd.io docker.io docker-compose -y
-sudo systemctl start docker
-sudo systemctl enable docker
-sudo usermod -aG docker $USER
+1. sudo apt update
+2. sudo apt install apt-transport-https ca-certificates curl software-properties-common -y
+3. curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+4. echo "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/debian $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+5. sudo apt update
+6. sudo apt install docker-ce docker-ce-cli containerd.io docker.io docker-compose -y
+7. sudo systemctl start docker
+8. sudo systemctl enable docker
+9. sudo usermod -aG docker $USER
 
 
 Flask avec Docker :
